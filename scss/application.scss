@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'base';
+
+// Mobile First
+.container {
+	width: 100%;
+
+	/* ===== TABLET CODE  768px ====== */
+	@media screen and (min-width: $breakpoint-tablet) {
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	/* ==== DESKTOP CODE  860px ===== */
+	@media screen and (min-width: $breakpoint-desktop) {
+		width: 70%
+	}
+
+}
