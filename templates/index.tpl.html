@@ -2,17 +2,21 @@
   
 <div class="container">
 	<main>
-	<h3>Nasa API</h3>
+	<h1>Nasa API</h1>
 	<p>Fill in the search box to search for Nasa Images</p>
 	<section>
 		<form id="searchNasa">
 			<div class="form-group">
-				<label for="search">Search</label>
-				<input type="text" name="search" id="search" placeholder="Apollo">
+				<label for="search">Search: </label>
+				<input type="text" name="search" id="search" placeholder="type a name in here example - Earth">
 			</div>
-			<button id="submit" type="submit" class="btn btn-primary">Search</button>
+			<button id="submit" type="submit" class="btn btn-primary">Search Images</button>
 		</form>
+		<button id="clear" class="btn btn-info">Clear Search</button>
 	</section>
 	</main>
+	<div class="results">
+		<!-- images will go inside here from search -->
+	</div>
 </div>
   @@include('_footer.html')
