@@ -3,8 +3,11 @@ Using the NASA image API https://images.nasa.gov/docs/images.nasa.gov_api_docs.p
 
 Instuctions
 ===================
+
 Git clone repo ---
+
 run - npm install
+
 type - gulp
 
 then it should open up localhost:3000
